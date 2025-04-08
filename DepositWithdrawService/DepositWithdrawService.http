@@ -1,0 +1,6 @@
+@DepositWithdrawService_HostAddress = http://localhost:5261
+
+GET {{DepositWithdrawService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

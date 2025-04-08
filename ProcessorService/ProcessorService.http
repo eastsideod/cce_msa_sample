@@ -1,0 +1,6 @@
+@ProcessorService_HostAddress = http://localhost:5249
+
+GET {{ProcessorService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
