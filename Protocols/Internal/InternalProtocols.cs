@@ -48,4 +48,13 @@ namespace Protocols.Internal
     public class LogoutRes : InternalProtocolBase
     {
     }
+
+
+    public class DepositReq : InternalProtocolBase
+    {
+    }
+
+    public class DepositRes : InternalProtocolBase
+    {
+    }
 }

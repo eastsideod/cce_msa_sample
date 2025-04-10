@@ -6,15 +6,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGateway", "ApiGateway\Ap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{237C84BE-ED5B-4A8C-A204-CFDF98FF0C00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessorService", "ProcessorService\ProcessorService.csproj", "{E4265A76-1DA7-48BB-A27D-4D3ADB7F4DF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProcessorService", "ProcessorService\ProcessorService.csproj", "{E4265A76-1DA7-48BB-A27D-4D3ADB7F4DF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SessionService", "SessionService\SessionService.csproj", "{40700B88-A1C9-419C-B1AF-EBF50BDCFEFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SessionService", "SessionService\SessionService.csproj", "{40700B88-A1C9-419C-B1AF-EBF50BDCFEFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepositWithdrawService", "DepositWithdrawService\DepositWithdrawService.csproj", "{AD9BD05F-3CB9-4503-AC88-F6B355110989}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Protocols", "Protocols\Protocols.csproj", "{797D192B-C593-4D3E-8B67-2D3E866DB78F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Protocols", "Protocols\Protocols.csproj", "{797D192B-C593-4D3E-8B67-2D3E866DB78F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatchingService", "MatchingService\MatchingService.csproj", "{A88A4603-15E5-4AB5-B3C1-DB69CF77A15C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchingService", "MatchingService\MatchingService.csproj", "{A88A4603-15E5-4AB5-B3C1-DB69CF77A15C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountService", "AccountService\AccountService.csproj", "{294E1ED2-0F0D-4C2A-872F-7F354CF14AB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,10 +38,6 @@ Global
 		{40700B88-A1C9-419C-B1AF-EBF50BDCFEFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40700B88-A1C9-419C-B1AF-EBF50BDCFEFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40700B88-A1C9-419C-B1AF-EBF50BDCFEFF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AD9BD05F-3CB9-4503-AC88-F6B355110989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD9BD05F-3CB9-4503-AC88-F6B355110989}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD9BD05F-3CB9-4503-AC88-F6B355110989}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD9BD05F-3CB9-4503-AC88-F6B355110989}.Release|Any CPU.Build.0 = Release|Any CPU
 		{797D192B-C593-4D3E-8B67-2D3E866DB78F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{797D192B-C593-4D3E-8B67-2D3E866DB78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{797D192B-C593-4D3E-8B67-2D3E866DB78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -50,6 +46,10 @@ Global
 		{A88A4603-15E5-4AB5-B3C1-DB69CF77A15C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A88A4603-15E5-4AB5-B3C1-DB69CF77A15C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A88A4603-15E5-4AB5-B3C1-DB69CF77A15C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{294E1ED2-0F0D-4C2A-872F-7F354CF14AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{294E1ED2-0F0D-4C2A-872F-7F354CF14AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{294E1ED2-0F0D-4C2A-872F-7F354CF14AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{294E1ED2-0F0D-4C2A-872F-7F354CF14AB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

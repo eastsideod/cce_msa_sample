@@ -4,22 +4,22 @@ namespace DepositWithdrawService.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class DepositWithdrawController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<DepositWithdrawController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public DepositWithdrawController(ILogger<DepositWithdrawController> logger)
         {
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get()
+        [HttpPost(Name = "Deposit")]
+        public IEnumerable<WeatherForecast> Deposit()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
